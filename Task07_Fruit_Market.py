@@ -1,0 +1,7 @@
+price_of_strawberries = float(input())
+bananas = float(input())
+oranges = float(input())
+raspberries = float(input())
+strawberries = float(input())
+sum = (strawberries * price_of_strawberries) + (raspberries * price_of_strawberries / 2) + (oranges * price_of_strawberries / 2 * 0.6) + (bananas * price_of_strawberries / 2 * 0.2)
+print(sum)
